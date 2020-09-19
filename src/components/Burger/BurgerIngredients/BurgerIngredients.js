@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import classes from  './BurgerIngredients.css';
+import classes from './BurgerIngredients.module.css';
 import PropTypes from 'prop-types';
 
 class BurgerIngredients extends Component{
@@ -40,7 +40,7 @@ class BurgerIngredients extends Component{
                 ingredient = null;
         }
     
-        return BurgerIngredients;
+        return ingredient;
     }    
 }
 

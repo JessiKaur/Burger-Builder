@@ -1,0 +1,32 @@
+.buildcontrol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.buildcontrol button {
+  display: block;
+  font: inherit;
+  padding: 5px;
+  margin: 0 5px;
+  width: 80px;
+  border: 0px solid;
+  cursor: pointer;
+  outline: none;
+}
+
+.buildcontrol .label {
+  color: white;
+  width: 20%;
+}
+
+.buildcontrol .less {
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+}
+
+.buildcontrol .more {
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+}
